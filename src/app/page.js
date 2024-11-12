@@ -1,6 +1,5 @@
 "use client";
-import Wallet from "@/component/wallet";
-import Image from "next/image";
+import Wallet from "@/component/Wallet";
 import { useState } from "react";
 
 export default function Home() {
@@ -9,7 +8,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Hello world</h1>
+    <h1>ToDO Application</h1>
       <Wallet account={account} setAccount={setAccount} />
     </div>
   );
